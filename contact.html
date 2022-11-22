@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#web-head').load('web-head.html')
+        });
+    </script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+        });
+    </script>
+     <script>
+        $(function () {
+            $('#footer').load('footer.html')
+        });
+    </script>
+
+<div id="web-head"></div>
+</head>
+
+<body>
+   
+    <div id="header"></div>
+
+  <section class="contact top-section" id="contact">
+    <h2 class="textcenter medium-heading">Contact Us</h2>
+    <div class="form">
+      <form action="mailto:vipin1yadav001@gmail.com" method="post" enctype="text/plain">
+        <input class="forminput" type="text" name="name " id="name" placeholder="Enter your Name">
+        <input class="forminput" type="text" name="phone" id="phone" placeholder="Enter your Phone Number">
+        <input class="forminput" type="email" name="email " id="email" placeholder="Enter your Email">
+        <textarea class="forminput" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your Concern"></textarea>
+        <!-- <button class="btn btnsm btndark">Submit</button> -->
+        <input type="submit" class="download-button button-two">
+      </form>
+    </div>
+  </section>
+</body>
+
+<div id="footer"></div>
+
+
+</html>

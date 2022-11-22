@@ -1,0 +1,358 @@
+
+
+/* top-section */
+.top-section {
+  padding: 9% 12% 10% 12%;
+  /* padding-bottom: 25vh; */
+
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(7,5,1,1) 24%, rgba(25,18,4,1) 41%, rgba(75,54,11,1) 66%, rgba(122,88,17,1) 79%, rgba(235,171,33,1) 100%);
+}
+.brand-1st-half{
+  color: white;
+  background-color: transparent;
+  font-weight:bold;
+  font-size:2rem;
+}
+.brand-2nd-half{
+  color: black;
+  background-color:#ebab21;
+  border-radius: 5px;
+  font-size:2rem;
+}
+/* navbar */
+.nav-list {
+  color:#ebab21;
+  border-radius: 9px;
+  border-width: 3px;
+  margin:0 2px 0;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: black;
+}
+.navbar {
+  padding:1%;
+  background-color: black;
+}
+.nav-list{
+  font-size:1.1rem;
+  padding: 0 8px 0 8px;
+}
+.nav-list:hover {
+  color: black;
+  background-color: #ebab21;
+}
+
+.brand-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.fixed-top{
+  position: fixed;
+}
+
+.intro {
+  padding: 5% 0 0 0;
+  text-align: left;
+}
+.title-gif{
+  position: relative;
+  left:10%;
+}
+.all-button{
+  color: #ebab21;
+  border-color: #ebab21;
+  border-radius: 15px;
+  border-width: 3px;
+}
+.all-button:hover {
+  background-color:#ebab21;
+  color:black;
+}
+/* nav end may be  */
+.notes-background{
+  color: white;
+  font-weight: bold;
+  background-color:transparent;
+
+}
+.hub-background{
+  color: black;
+  background-color:#ebab21;
+  border-radius: 10px;
+}
+
+/* list section */
+.list-section{
+  background: linear-gradient(180deg, rgba(235,171,33,1) 0%, rgba(255,200,82,1) 22%, rgba(255,215,130,1) 50%, rgba(255,200,82,1) 81%, rgba(235,171,33,1) 100%);
+  padding-bottom:20px;
+}
+.top-heading {
+  margin:10% 0;
+  width: 100%
+}
+.top-heading-text{
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 10%;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+  text-decoration: none;
+  width: 100%
+}
+.top-heading-text:hover {
+  color: #131313;
+}
+
+.top-text {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  color: white;
+}
+
+.medium-heading {
+  color:white;
+  padding: 1.5%;
+  background-color: black;
+  margin:0 0.5% 0 0.5%;
+  font-family: Ubuntu;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.sem-row{
+  border:2px solid black;
+  background-color:black;
+  padding:5px;
+  margin:10px;
+  border-radius:10px;
+}
+.sem-text {
+  font-family: Montserrat;
+  color:#ebab21;
+  font-size: 2rem;
+  line-height: 1.5;
+  width:100%;
+}
+.download-button{
+  background-color: black;
+  font-size: 2rem;
+  width:100%;
+  color: white;
+  border-radius: 10px;
+}
+.download-button:hover{
+  background-color:#ebab21;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  color: black;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.navbar-toggler {
+  border-color: #ebab21;
+  background-color: #ebab21;
+}
+
+/* about-us */
+.about-us {
+  padding: 8% 3% 0 3%; 
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(7,5,1,1) 24%, rgba(25,18,4,1) 41%, rgba(75,54,11,1) 66%, rgba(122,88,17,1) 79%, rgba(235,171,33,1) 100%);
+}
+
+.about-column {
+  padding: 3%
+    /*T&B*/
+    2%
+    /*L&R*/
+  ;
+}
+
+.dev-detail {
+  color: #8f8f8f;
+}
+
+.card {
+  background:black;
+  border-radius: 20px;
+  margin: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.dev-name {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.about-icon {
+  font-size: 2.5rem;
+}
+
+.read-more-btn:hover {
+  border-color: black;
+  background-color:#ebab21;
+  color: black;
+}
+
+.insta-button{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.insta-gif {
+  width: 40px;
+  height: auto;
+}
+
+/* section movies link */
+.sectionmovie {
+
+    position: relative;
+    width: 100%;
+    height:60px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+
+}
+
+.sectionmovie p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.sectionmovie p a  {
+    color: red;
+}
+@keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+  }
+  .blink {
+    animation: blink 1s step-start 0s infinite;
+  }
+
+  
+/* contact-section start */
+.contact {
+  background-color: #F1EEEE;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 12vh;
+}
+.button-two{
+  font-size: 1.5rem;
+  width: 80%;
+  padding: auto;
+}
+
+.form {
+  max-width: 80%;
+  margin: 22px auto;
+}
+
+.forminput {
+  margin: 15px 0;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 8px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.textcenter{
+  font-size: 3em;
+}
+
+/* contact end  */
+
+/* footer start */
+footer {
+  width: 100%;
+  height: auto;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer p:nth-child(2) {
+  color: white;
+  font-size: 1.1rem;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.reach-handle{
+  margin: 0;
+}
+.social {
+  display: flex;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: .3s;
+}
+
+.foot-youtube-icon {
+  background:	#25D366;
+}
+
+.foot-insta-icon {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.foot-github-icon {
+  background: black;
+}
+
+.end {
+  color: #ebab21;
+  font-size: 1rem;
+}
+
+/* footer end  */

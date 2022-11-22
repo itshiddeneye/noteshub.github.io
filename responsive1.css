@@ -1,0 +1,50 @@
+@media (max-width:1231px) {
+  .top-text {
+      line-height: 1.2;
+  }
+ 
+}
+
+@media (max-width:1103px) {
+  .top-text {
+    line-height: 1;
+  }
+  .title-button {
+    margin: 0 15px 15px 0;
+  }
+  .title-gif{
+    position: relative;
+    left:1%;
+  }
+  
+}
+
+@media (max-width:617px) {
+  .top-section{
+    padding: 33% 12% 20% 12%;
+  }
+  .title-gif{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .top-text{
+    font-size: 2rem;
+    letter-spacing: normal;
+  }
+  .top-heading-text{
+    font-size: 2rem;
+    line-height: 1;
+    margin: 10% 0;
+    letter-spacing:normal;
+  }
+  .medium-heading {
+      font-size: 2rem;
+  }
+.nav-list{
+  text-align: right;
+  
+}
+.about-us {
+  padding: 30% 3% 0 3%;}
+}
