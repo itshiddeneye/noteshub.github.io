@@ -1,1 +1,1 @@
-# noteshub.github.io
+# noteshub.live
